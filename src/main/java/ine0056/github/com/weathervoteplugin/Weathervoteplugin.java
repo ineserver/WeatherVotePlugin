@@ -27,7 +27,7 @@ public final class Weathervoteplugin extends JavaPlugin {
                 if (args.length == 0) {
                     sender.sendMessage(getMessage(player, "system.help"));
                 } else {
-                    World world = Bukkit.getServer().getWorld("world");
+                    World world = Bukkit.getServer().getWorld("Keizai");
 
                     switch (args[0]) { // Switch式による可読性の向上
                         case "sun" -> {
